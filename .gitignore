@@ -1,0 +1,28 @@
+# Environnements virtuels Python
+.venv/
+venv/
+ENV/
+
+# Fichiers compilés et caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Variables d'environnement et secrets
+.env
+*.env.local
+
+# Fichiers spécifiques aux IDE (PyCharm / VS Code)
+.idea/
+.vscode/
+*.swp
+
+# Données locales de conteneurs (si montées en volume plus tard)
+postgres_data/
+minio_data/
+kafka_data/
+
+# Fichiers système Windows
+Thumbs.db
+Desktop.ini
