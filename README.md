@@ -55,7 +55,6 @@ microservices-fullstack-lab/
 │   │   ├── database.py             # Configuration SQLAlchemy Async & Session
 │   │   ├── models.py               # Modèle relationnel ORM (Table 'orders')
 │   │   ├── schemas.py              # Validation des données entrantes/sortantes (Pydantic)
-│   │   ├── kafka_producer.py       # Producteur asynchrone d'événements Kafka
 │   │   └── main.py                 # Endpoints REST FastAPI & cycle de vie (Lifespan)
 │   └── datalake_worker/            # Microservice Analytique (OLAP)
 │       ├── Dockerfile
